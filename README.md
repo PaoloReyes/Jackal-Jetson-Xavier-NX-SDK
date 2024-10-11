@@ -48,7 +48,7 @@ To install these utility on Ubuntu, you can run:
 
    ```bash
    git clone https://github.com/PaoloReyes/Jackal-Jetson-Xavier-NX-SDK.git
-   cd Jackal-Jetson-Xavier-SDK
+   cd Jackal-Jetson-Xavier-NX-SDK
    ```
 
 2. **Generate Partitions Zip File**
