@@ -90,8 +90,8 @@ To install these utility on Ubuntu, you can run:
    If your SD is bigger than 32GB, it's highly recommended to expand the main partition, so you can have more storage space.
 
    ```bash
-   sudo growpart /dev/sdb 1
-   sudo resize2fs /dev/sdb1
+   sudo growpart /dev/mmcblk0 1
+   sudo resize2fs /dev/mmcblk0p1
    ```
 
    **Important:** Replace `/dev/sdb` with the correct device path (use lsblk to find your device), as well the `/dev/sdb1` with the correct partition path (this will also be shown by lsblk).
