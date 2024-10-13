@@ -94,7 +94,7 @@ To install these utility on Ubuntu, you can run:
    sudo resize2fs /dev/mmcblk0p1
    ```
 
-   **Important:** Replace `/dev/sdb` with the correct device path (use lsblk to find your device), as well the `/dev/sdb1` with the correct partition path (this will also be shown by lsblk).
+   **Important:** Replace `/dev/mmcblk0` with the correct device path (use lsblk to find your device), as well the `/dev/mmcblk0p1` with the correct partition path (this will also be shown by lsblk).
 
   
 7. **Connect and Boot your Jetson Xavier NX with the SD**
