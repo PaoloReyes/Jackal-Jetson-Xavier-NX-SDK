@@ -139,14 +139,17 @@ Once you've paired the PS4 controller to the Jetson Xavier NX and made sure that
 
 The speed control will be determined thanks to the left joystick of the controller (in the image below it can be seen as the K element of the diagram).
 
-![image](assets/ps4_controller_front.jpg (Diagram of the front of an PS4 controller))
+![image](assets/ps4_controller_front.jpg)
 
 By design, the program has a security lock so it doesn't move with only the joystick, so you'll need to press R1 or L1 buttons (The D and A elements on the image below).
 
 L1 button is for a lower speed, while R1 is used for a higher speed. You'll need to press either R1 or L1 button, and move the Left Stick at the same time for moving.
 
-![iamge2](assets/ps4_controller_side.jpg (Diagram of the side of an PS4 controller))
+![image2](assets/ps4_controller_side.jpg)
 
+## GraphView
+
+![GraphView](assets/graph.jpg)
 
 ## Contact
 
