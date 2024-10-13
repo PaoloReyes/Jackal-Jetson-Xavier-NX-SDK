@@ -26,7 +26,7 @@ Before getting started, make sure you have the following:
 - **32GB+ SD Card**: A microSD card with at least 32GB of space.
 - **Linux Machine**: A Linux-based system (Ubuntu recommended) for building the image with at least 40 free GB.
 - **Required Tools**: 
-  - `sgdisk` and `dd` utilities (for partitioning and flashing)
+  - `sfdisk` and `dd` utilities (for partitioning and flashing)
   - `unzip` (for extracting files)
   
 To install these utilities on Ubuntu, you can run:
