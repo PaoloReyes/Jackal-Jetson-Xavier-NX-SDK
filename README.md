@@ -78,11 +78,11 @@ To install these utility on Ubuntu, you can run:
    **Important:** Adjust the device names (/dev/sdb1, /dev/sdb2, etc.) according to your system.
 
    ```bash
-   sudo dd if=sdb1.img of=/dev/sdb1 bs=4M status=progress
-   sudo dd if=sdb2.img of=/dev/sdb2 bs=4M status=progress
-   sudo dd if=sdb3.img of=/dev/sdb3 bs=4M status=progress
+   sudo dd if=part1.img of=/dev/mmcblk01 bs=4M status=progress
+   sudo dd if=part2.img of=/dev/mmcblk02 bs=4M status=progress
+   sudo dd if=part3.img of=/dev/mmcblk03 bs=4M status=progress
    ...
-   sudo dd if=sdb22.img of=/dev/sdb22 bs=4M status=progress
+   sudo dd if=part22.img of=/dev/mmcblk022 bs=4M status=progress
    ```
 
 6. **(Optional) Resizing the main partition**
