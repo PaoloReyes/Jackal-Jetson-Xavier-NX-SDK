@@ -31,7 +31,7 @@ Before getting started, make sure you have the following:
   
 To install these utilities on Ubuntu, you can run:
 ```bash
-sudo apt-get install gdisk unzip
+sudo apt install fdisk unzip
 ```
 
 - **Optional**
