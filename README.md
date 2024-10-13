@@ -151,6 +151,11 @@ L1 button is for a lower speed, while R1 is used for a higher speed. You'll need
 
 ![GraphView](assets/graph.jpg)
 
+There is a problem to visualize `rqt_graph` since the nodes are launched at boot and the graph will only show nodes created by the user and not root. If you want to view the graph please run before `rqt_graph`:
+
+`systemctl stop launch_teleop_jackal.service
+ros2 launch jackal_control_humble jackal_control.launch.py`
+
 ## Contact
 
 For questions or support, please open an issue on the [GitHub repository](https://github.com/PaoloReyes/Jackal-Jetson-Xavier-NX-SDK/issues) or contact the project maintainers at 
