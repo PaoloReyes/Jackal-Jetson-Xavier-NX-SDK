@@ -70,7 +70,7 @@ To install these utility on Ubuntu, you can run:
    **Warning:** Double-check your target device to avoid overwriting important data.
 
    ```bash
-   sudo sfdisk /dev/mmcblk0 < partitions.txt
+   sudo sfdisk /dev/mmcblk0 < partitions_table.txt
    ```
 
 5. **Flash the Partitions**
