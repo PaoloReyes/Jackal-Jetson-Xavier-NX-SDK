@@ -65,12 +65,12 @@ To install these utility on Ubuntu, you can run:
 
 4. **Prepare the Target Device** 
 
-   **Important:** Replace `/dev/sdb` with the correct device path (use lsblk to find your device):
+   **Important:** Replace `/dev/mmcblk0` with the correct device path (use lsblk to find your device):
 
    **Warning:** Double-check your target device to avoid overwriting important data.
 
    ```bash
-   sudo sgdisk -l=partitions_table.gpt /dev/sdb
+   sudo sfdisk /dev/mmcblk0 < partitions.txt
    ```
 
 5. **Flash the Partitions**
