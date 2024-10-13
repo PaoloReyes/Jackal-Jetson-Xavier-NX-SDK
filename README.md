@@ -9,7 +9,7 @@ This SDK contains the following preinstalled software:
 - Nvidia Drivers
 - ROS2 Humble
 - Jackal Packages
-- Self Developed On-Boot TeleOp Control
+- On-Boot TwistMux and Odometry Nodes
 
 Simply Get the image into an SD card following the steps below and connect your Jetson Xavier NX onto your Jackal Robot.
 
