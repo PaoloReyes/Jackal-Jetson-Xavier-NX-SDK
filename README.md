@@ -70,7 +70,7 @@ To install these utility on Ubuntu, you can run:
    **Warning:** Double-check your target device to avoid overwriting important data.
    
    ```bash
-   sudo sgdisk -l=backup_table.gpt /dev/mmcblk0
+   sudo sgdisk -l=partitions_table.gpt /dev/mmcblk0
    ```
 
 5. **Flash the Partitions**
