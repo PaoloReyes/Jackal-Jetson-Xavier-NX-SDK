@@ -69,8 +69,18 @@ To install these utility on Ubuntu, you can run:
 
    **Warning:** Double-check your target device to avoid overwriting important data.
 
+   **Note:** There are two possible options for this step. Choose whichever serves you best.
+
+   **Option 1**
+
    ```bash
    sudo sfdisk /dev/mmcblk0 < partitions_table.txt
+   ```
+
+   **Option 2**
+   
+   ```bash
+   sudo sgdisk -l=backup_table.gpt /dev/mmcblk0
    ```
 
 5. **Flash the Partitions**
